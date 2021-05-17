@@ -55,15 +55,14 @@ function Search({handleSubmit, handleUrlChange, handleMethod, handleJson, url, r
                     onChange={handleMethod}/>
                     <span>Delete</span>
                 </label>
-            
             </span>
+
             <label>
                 <span>Raw JSON Request</span>
                 <textarea
                 value={json}
                 aria-label='json-request'
                 onInput={handleJson}>
-
                 </textarea>
             </label>
             <button>Submit Request</button>

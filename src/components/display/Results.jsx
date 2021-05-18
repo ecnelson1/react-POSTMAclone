@@ -5,7 +5,7 @@ function Results({results}) {
     return (
         <div>
             <h1>Request Results:</h1>
-            <p>{JSON.stringify(results)}</p>
+            <pre>{JSON.stringify(results, null, 2)}</pre>
             
         </div>
     )

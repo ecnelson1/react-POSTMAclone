@@ -8,7 +8,7 @@ export default class PostPage extends Component {
         url: '',
         method: 'GET',
         req:'',
-        results: '',
+        results: [],
     }
     handleSubmit = async (e) => {
         e.preventDefault();

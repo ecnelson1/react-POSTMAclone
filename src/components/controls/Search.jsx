@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 function Search({handleSubmit, handleUrlChange, handleMethod, handleJson, url, radioInput, json }) {
     return (
         <form
+        name="search-form"
         onSubmit={handleSubmit}>
             <input
             value={url}
